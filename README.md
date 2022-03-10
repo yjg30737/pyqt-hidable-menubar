@@ -21,7 +21,6 @@ If you click it, menu bar will be hidden but not completely(small space remains)
 
 If you want to show it again, just move the mouse cursor to the space.
 
-
 ## Example
 Code Sample
 ```python
