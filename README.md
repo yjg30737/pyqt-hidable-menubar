@@ -11,15 +11,15 @@ PyQt Hidable Menubar (show/hide menu bar with close button at the right corner o
 * <a href="https://github.com/yjg30737/pyqt-svg-icon-pushbutton.git">pyqt-svg-icon-pushbutton</a> - To svg file button (close button's icon is svg file)
 
 ## Usage
-![image](https://user-images.githubusercontent.com/55078043/157560268-866c9e48-8a8c-4060-8526-0c8d1ad298ff.png)
-
 You can see the button at the right corner. 
 
-![image](https://user-images.githubusercontent.com/55078043/157560287-97c6fcfe-7a1f-4a12-940e-6cc9f4049711.png)
+![image](https://user-images.githubusercontent.com/55078043/157560268-866c9e48-8a8c-4060-8526-0c8d1ad298ff.png)
 
 If you click it, menu bar will be hidden but not completely(small space remains). 
 
 If you want to show it again, just move the mouse cursor to the space.
+
+![image](https://user-images.githubusercontent.com/55078043/157560287-97c6fcfe-7a1f-4a12-940e-6cc9f4049711.png)
 
 ## Example
 Code Sample
