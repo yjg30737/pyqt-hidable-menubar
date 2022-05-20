@@ -1,1 +1,1 @@
-git+https://git@github.com/yjg30737/pyqt-svg-icon-pushbutton.git@main
+pyqt-svg-button>=0.0.1

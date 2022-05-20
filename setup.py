@@ -12,6 +12,6 @@ setup(
     url='https://github.com/yjg30737/pyqt-hidable-menubar.git',
     install_requires=[
         'PyQt5>=5.8',
-        'pyqt-svg-icon-pushbutton @ git+https://git@github.com/yjg30737/pyqt-svg-icon-pushbutton.git@main'
+        'pyqt-svg-button>=0.0.1'
     ]
 )

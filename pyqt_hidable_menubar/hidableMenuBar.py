@@ -1,6 +1,6 @@
 from PyQt5.QtCore import QPropertyAnimation, QAbstractAnimation, pyqtSignal, Qt
 from PyQt5.QtWidgets import QMenuBar, QToolButton
-from pyqt_svg_icon_pushbutton import SvgIconPushButton
+from pyqt_svg_button import SvgButton
 
 
 class HidableMenuBar(QMenuBar):
@@ -17,7 +17,7 @@ class HidableMenuBar(QMenuBar):
         tool_button = self.findChild(QToolButton)
         tool_button.setArrowType(Qt.RightArrow)
 
-        self.__showToggleBtn = SvgIconPushButton(self)
+        self.__showToggleBtn = SvgButton(self)
         self.__showToggleBtn.clicked.connect(self.__hideMenu)
         self.__showToggleBtn.setToolTip('Hide the menu bar')
         self.__showToggleBtn.setIcon('ico/close.svg')
