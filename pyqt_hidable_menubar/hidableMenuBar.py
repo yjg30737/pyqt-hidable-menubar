@@ -49,3 +49,9 @@ class HidableMenuBar(QMenuBar):
         if self.__hide_flag:
             self.__showMenu()
         return super().enterEvent(e)
+
+    def event(self, e):
+        if int(e.type()) == 76:
+            height = self.sizeHint().height()
+            self.__menuAnimation.setStartValue(height)
+        return super().event(e)
