@@ -1,7 +1,9 @@
 # pyqt-hidable-menubar
 PyQt Hidable Menubar (show/hide menu bar with close button at the right corner of it)
 
-Showing/hiding menu bar performs little animation. 
+Showing/hiding menu bar performs little animation.
+
+Fully-responsive as well.
 
 ## Requirements
 * PyQt5 >= 5.8
